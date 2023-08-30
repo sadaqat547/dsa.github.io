@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Skills By Ali</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script></head>
+
+<body>
+
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/dsa.png" width="135px" class="logoimg">
+                    </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Outlines</a></li>
+                        <li><a href="about.html">About</a></li>
+ <li><a href="contact_us.html">Contact Us</a></li>
+
+
+                    </ul>
+
+                </nav>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+    <!-- ---------------contactus-------------------->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3513.042538866256!2d70.12813531439895!3d28.297035505938087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393741e2772a4ab9%3A0x12f922099896e76e!2sMadrassa%20Tul%20Binaat!5e0!3m2!1sen!2s!4v1617458646080!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+   
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+
+            <div>
+                 <i class="fa fa-home"></i>
+            <span>
+                <h5>SadiqAbad, Manthar Road , MTB College</h5>
+                <p>Pakistan</p>
+        </span>
+            </div>
+
+
+            <div>
+                 <i class="fa fa-phone"></i>
+            <span>
+                <h5>Phone</h5>
+                <p>068-5704035</p>
+        </span>
+            </div>
+           <div>
+                 <i class="fa fa-envelope"></i>
+            <span>
+                <h5>Email</h5>
+                <p>sadaqatalisdk547@gmail.com</p>
+        </span>
+            </div>
+        </div>
+
+        
+    </div>
+</section>
+
+
+
+
+
+
+    <!-- ---------------contactus-------------------- -->
+
+    <!--        ---------footer-------->
+    <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and IOS Phones.</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+    
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <a href="index.html">
+                    <img src="images/dsa white.png" width="245px" class="logoimg">
+                </a>
+                <p>Our Purpose Is To Take Care Of Your Brighter Future.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>DSA</h3>
+                <ul>
+                    <li>Jumbo Job</li>
+                    <li>Lifetime Support</li>
+                    <li>Cheap Courses</li>
+                    <li>Exams at course end</li>
+                    <a href="about.html">
+                        <li>Privacy Policy</li>
+                    </a>
+    
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <a class="btn3" href="https://www.facebook.com/digitalskillsbyali/">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn3" href="https://www.facebook.com/groups/253959349431152">
+                        <i class="fa fa-users"></i>
+                    </a>
+                    <a class="btn3" href="https://mtb.edu.pk/">
+                        <i class="fa fa-graduation-cap"></i>
+                    </a>
+                    <a class="btn3" href="https://github.com/sadaqat547">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a class="btn3" href="http://m.me/BusinessPersonSDK">
+                        <i class="fab fa-facebook-messenger"></i>
+                    </a>
+    
+    
+                </ul>
+    
+            </div>
+    
+    
+        </div>
+        <p class="developer">Developed By Sadaqat Ali (Lead Trainer)</p>
+        <hr>
+        <p class="copyright">Copyright 2021 - Digital Skills By Ali</p>
+    </div>
+    </div>
+
+
+    <!--        --------js for toggle menu-------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+
